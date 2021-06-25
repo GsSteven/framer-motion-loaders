@@ -1,16 +1,28 @@
 .loader2 {
     width: 200px;
     height: 200px;
-    border: 1px solid blue;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#ball1 {
-    width: 20%;
-    height: 20%;
+#ball1,
+#ball2,
+#ball3 {
+    width: 1.5em;
+    height: 1.5em;
     border-radius: 50%;
+    border: 1px solid white;
+}
+
+#ball1 {  
     background-color: red;
-    position: absolute;
-    bottom: 0;
-    left: 20%;
+}
+
+#ball2 {
+    background-color: blue;
+}
+#ball3 {
+    background-color: green;
 }
