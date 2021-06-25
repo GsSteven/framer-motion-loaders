@@ -1,0 +1,39 @@
+.loader1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thing1,
+#thing2,
+#thing3 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #222;
+}
+
+#thing1 {
+    width: 70%;
+    height: 70%;
+    background-color: red;
+}
+
+#thing2 {
+    width: 45%;
+    height: 45%;
+    background-color: green;
+}
+
+#thing3 {
+    width: 25%;
+    height: 25%;
+    background-color: blue;
+}
