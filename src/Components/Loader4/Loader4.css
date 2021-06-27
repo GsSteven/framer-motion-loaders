@@ -1,0 +1,31 @@
+.loader4 {
+    position: relative;
+    text-align: center;
+}
+
+.innerCircle {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#circle1 {
+    background-color: red;
+    width: 80%;
+    height: 80%;
+}
+
+#circle2 {
+    background-color: blue;
+    width: 60%;
+    height: 60%;
+}
+
+#circle3 {
+    background-color: green;
+    width: 40%;
+    height: 40%;
+}
