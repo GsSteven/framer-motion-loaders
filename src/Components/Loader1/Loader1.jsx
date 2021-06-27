@@ -16,7 +16,7 @@ const pulseVariant = {
 
 export default function Loader1() {
   return (
-    <div className="loader1">
+    <div className="loaderContainer loader1">
       <motion.div id="thing1" variants={pulseVariant} animate="animate" />
       <motion.div id="thing2" variants={pulseVariant} animate="animate" />
       <motion.div id="thing3" variants={pulseVariant} animate="animate" />

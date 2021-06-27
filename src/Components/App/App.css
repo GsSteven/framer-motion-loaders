@@ -9,3 +9,8 @@
   color: white;
 }
 
+.loaderContainer {
+    width: 100px;
+    height: 100px;
+}
+

@@ -4,7 +4,7 @@ import "./Loader2.css";
 
 export default function Loader2() {
   return (
-    <div className="loader2">
+    <div className="loaderContainer loader2">
       <motion.div
         id="ball1"
         animate={{

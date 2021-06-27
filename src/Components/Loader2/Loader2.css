@@ -1,6 +1,4 @@
 .loader2 {
-    width: 200px;
-    height: 200px;
     position: relative;
     display: flex;
     align-items: center;
@@ -10,8 +8,8 @@
 #ball1,
 #ball2,
 #ball3 {
-    width: 1.5em;
-    height: 1.5em;
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
     border: 1px solid white;
 }

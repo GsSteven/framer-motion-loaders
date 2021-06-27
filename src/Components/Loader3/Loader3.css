@@ -1,5 +1,37 @@
 .loader3 {
-    border: 1px solid blue;
-    width: 200px;
-    height: 200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.square {
+    width: 100%;
+    height: 100%;
+}
+
+#square1 {
+    background-color: red;
+    grid-area: 2 / 1 / span 1/ span 1;
+    align-self: center;
+}
+
+#square2 {
+    background-color: yellow;
+    grid-area: 1 / 2 / span 1/ span 1;
+    margin: 0 auto;
+}
+
+#square3 {
+    background-color: blue;
+    grid-area: 2 / 3 / span 1/ span 1;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+#square4 {
+    background-color: green;
+    grid-area: 3 / 2 / span 1 / span 1;
+    align-self: flex-end;
+    margin: 0 auto;
 }

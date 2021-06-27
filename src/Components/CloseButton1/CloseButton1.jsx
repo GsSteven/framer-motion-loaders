@@ -17,7 +17,7 @@ const inOutVariant = {
 
 export default function Loader1() {
   return (
-    <div className="animateArea">
+    <div className="loaderContainer animateArea">
       <motion.svg
         className="Xbutton"
         viewBox="0 0 100 100"
