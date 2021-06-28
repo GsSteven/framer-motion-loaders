@@ -1,0 +1,20 @@
+.loader6 {
+    overflow: hidden;
+    position: relative;
+}
+
+.box {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    left: -150px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#box1 {
+    background-color: red;
+}
